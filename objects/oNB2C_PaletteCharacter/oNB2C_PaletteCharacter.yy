@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oNB2C_Character",
+  "%Name":"oNB2C_PaletteCharacter",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oNB2C_Character",
+  "name":"oNB2C_PaletteCharacter",
   "overriddenProperties":[],
   "parent":{
-    "name":"Palette Swap",
-    "path":"folders/nandbolt/Demos/Color/Palette Swap.yy",
+    "name":"Color",
+    "path":"folders/nandbolt/Demos/Color.yy",
   },
   "parentObjectId":null,
   "persistent":false,

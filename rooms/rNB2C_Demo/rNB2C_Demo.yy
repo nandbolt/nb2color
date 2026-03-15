@@ -1,24 +1,26 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rNB2C_PaletteSwapDemo",
+  "%Name":"rNB2C_Demo",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_24EB4CF2","path":"rooms/rNB2C_PaletteSwapDemo/rNB2C_PaletteSwapDemo.yy",},
+    {"name":"inst_24EB4CF2","path":"rooms/rNB2C_Demo/rNB2C_Demo.yy",},
+    {"name":"inst_5BA9C67E","path":"rooms/rNB2C_Demo/rNB2C_Demo.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_24EB4CF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24EB4CF2","objectId":{"name":"oNB2C_Character","path":"objects/oNB2C_Character/oNB2C_Character.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":24.499998,"scaleY":24.499998,"x":672.0,"y":352.0,},
+        {"$GMRInstance":"v4","%Name":"inst_24EB4CF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24EB4CF2","objectId":{"name":"oNB2C_PaletteCharacter","path":"objects/oNB2C_PaletteCharacter/oNB2C_PaletteCharacter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":24.499998,"scaleY":24.499998,"x":480.0,"y":352.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5BA9C67E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5BA9C67E","objectId":{"name":"oNB2C_OutlineCharacter","path":"objects/oNB2C_OutlineCharacter/oNB2C_OutlineCharacter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":24.6875,"scaleY":24.6875,"x":896.0,"y":352.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rNB2C_PaletteSwapDemo",
+  "name":"rNB2C_Demo",
   "parent":{
-    "name":"Palette Swap",
-    "path":"folders/nandbolt/Demos/Color/Palette Swap.yy",
+    "name":"Color",
+    "path":"folders/nandbolt/Demos/Color.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

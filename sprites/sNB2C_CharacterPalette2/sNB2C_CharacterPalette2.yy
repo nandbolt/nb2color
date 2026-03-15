@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Palette Swap",
-    "path":"folders/nandbolt/Demos/Color/Palette Swap.yy",
+    "name":"Color",
+    "path":"folders/nandbolt/Demos/Color.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

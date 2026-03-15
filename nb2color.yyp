@@ -15,7 +15,6 @@
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/nandbolt/Color/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Demos","folderPath":"folders/nandbolt/Demos.yy","name":"Demos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Color","folderPath":"folders/nandbolt/Demos/Color.yy","name":"Color","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Palette Swap","folderPath":"folders/nandbolt/Demos/Color/Palette Swap.yy","name":"Palette Swap","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
@@ -26,10 +25,13 @@
   },
   "name":"nb2color",
   "resources":[
-    {"id":{"name":"oNB2C_Character","path":"objects/oNB2C_Character/oNB2C_Character.yy",},},
-    {"id":{"name":"rNB2C_PaletteSwapDemo","path":"rooms/rNB2C_PaletteSwapDemo/rNB2C_PaletteSwapDemo.yy",},},
+    {"id":{"name":"oNB2C_OutlineCharacter","path":"objects/oNB2C_OutlineCharacter/oNB2C_OutlineCharacter.yy",},},
+    {"id":{"name":"oNB2C_PaletteCharacter","path":"objects/oNB2C_PaletteCharacter/oNB2C_PaletteCharacter.yy",},},
+    {"id":{"name":"rNB2C_Demo","path":"rooms/rNB2C_Demo/rNB2C_Demo.yy",},},
     {"id":{"name":"scrColorStruct","path":"scripts/scrColorStruct/scrColorStruct.yy",},},
+    {"id":{"name":"shdrFullOutline","path":"shaders/shdrFullOutline/shdrFullOutline.yy",},},
     {"id":{"name":"shdrIndexPaletteSwap","path":"shaders/shdrIndexPaletteSwap/shdrIndexPaletteSwap.yy",},},
+    {"id":{"name":"shdrOutline","path":"shaders/shdrOutline/shdrOutline.yy",},},
     {"id":{"name":"sNB2C_Character","path":"sprites/sNB2C_Character/sNB2C_Character.yy",},},
     {"id":{"name":"sNB2C_CharacterPalette1","path":"sprites/sNB2C_CharacterPalette1/sNB2C_CharacterPalette1.yy",},},
     {"id":{"name":"sNB2C_CharacterPalette2","path":"sprites/sNB2C_CharacterPalette2/sNB2C_CharacterPalette2.yy",},},
@@ -38,10 +40,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rNB2C_PaletteSwapDemo","path":"rooms/rNB2C_PaletteSwapDemo/rNB2C_PaletteSwapDemo.yy",},},
+    {"roomId":{"name":"rNB2C_Demo","path":"rooms/rNB2C_Demo/rNB2C_Demo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
-    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":false,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }

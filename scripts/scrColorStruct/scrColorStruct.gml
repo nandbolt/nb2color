@@ -2,7 +2,7 @@
 /// @param {Constant.Color} constant
 /// @desc A color that holds each individual rgb component, normalized from 0-1.
 /// This is for ease of use in shaders.
-function Color(_constant=c_white, _alpha=1)
+function Color(_constant=c_white, _alpha=1) constructor
 {
     r = colour_get_red(_constant) / 255;
     g = colour_get_green(_constant) / 255;

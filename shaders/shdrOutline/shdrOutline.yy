@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdrOutline",
+  "name":"shdrOutline",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/nandbolt/Color/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
