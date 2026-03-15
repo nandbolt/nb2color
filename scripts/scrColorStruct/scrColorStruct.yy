@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrColorStruct",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrColorStruct",
+  "parent":{
+    "name":"Color",
+    "path":"folders/nandbolt/Color.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
